@@ -47,7 +47,7 @@ void setup() {
   size_t agent_port = 8888;
 
 char ssid[] = "newton";
-char psk[]= "neyoten196619";
+char psk[]= "neyoten";
 set_microros_wifi_transports(ssid, psk, agent_ip, agent_port);
 
   delay(2000);
